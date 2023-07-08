@@ -1,0 +1,942 @@
+{
+  "delhi": [
+    {
+      "property_id": 1,
+      "title": "Modern Apartment in South Delhi",
+      "location": "South Delhi",
+      "price": "$500,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=867&q=80",
+      "description": "A contemporary apartment in the heart of South Delhi. Spacious rooms, modern interiors, and close proximity to amenities.",
+      "owner": {
+        "name": "John Smith",
+        "email": "johnsmith@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 2,
+      "title": "Luxury Villa in Greater Kailash",
+      "location": "Greater Kailash",
+      "price": "$2,000,000",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "image_url": "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "An exquisite villa in the upscale neighborhood of Greater Kailash. High-end features, beautiful garden, and luxurious amenities.",
+      "owner": {
+        "name": "Emma Johnson",
+        "email": "emmajohnson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 3,
+      "title": "Spacious Apartment in Connaught Place",
+      "location": "Connaught Place",
+      "price": "$750,000",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A spacious apartment located in the bustling area of Connaught Place. Convenient access to shopping, dining, and entertainment.",
+      "owner": {
+        "name": "Michael Brown",
+        "email": "michaelbrown@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 4,
+      "title": "Cozy Studio in Hauz Khas",
+      "location": "Hauz Khas",
+      "price": "$250,000",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "image_url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A charming studio apartment nestled in the vibrant neighborhood of Hauz Khas. Perfect for students or young professionals.",
+      "owner": {
+        "name": "Sophia Davis",
+        "email": "sophiadavis@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 5,
+      "title": "Penthouse in Vasant Vihar",
+      "location": "Vasant Vihar",
+      "price": "$1,800,000",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A luxurious penthouse in the upscale neighborhood of Vasant Vihar. Stunning views, spacious interiors, and top-of-the-line amenities.",
+      "owner": {
+        "name": "David Wilson",
+        "email": "davidwilson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 6,
+      "title": "Townhouse in Dwarka",
+      "location": "Dwarka",
+      "price": "$1,200,000",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1612965607446-25e1332775ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A beautiful townhouse situated in the serene neighborhood of Dwarka. Spacious rooms, modern amenities, and easy access to parks and schools.",
+      "owner": {
+        "name": "Jennifer Anderson",
+        "email": "jenniferanderson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 7,
+      "title": "Studio Apartment in Saket",
+      "location": "Saket",
+      "price": "$300,000",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "image_url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A cozy studio apartment located in the vibrant area of Saket. Close to shopping malls, restaurants, and public transportation.",
+      "owner": {
+        "name": "Mark Thompson",
+        "email": "markthompson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 8,
+      "title": "Duplex in Lajpat Nagar",
+      "location": "Lajpat Nagar",
+      "price": "$900,000",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A spacious duplex in the desirable neighborhood of Lajpat Nagar. Modern design, ample living space, and easy access to markets and schools.",
+      "owner": {
+        "name": "Olivia Martinez",
+        "email": "oliviamartinez@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 9,
+      "title": "Luxury Apartment in Chanakyapuri",
+      "location": "Chanakyapuri",
+      "price": "$2,500,000",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "description": "An elegant luxury apartment situated in the prestigious area of Chanakyapuri. High-end finishes, stunning views, and exclusive amenities.",
+      "owner": {
+        "name": "Daniel Wilson",
+        "email": "danielwilson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 10,
+      "title": "Farmhouse in Chattarpur",
+      "location": "Chattarpur",
+      "price": "$3,000,000",
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "image_url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A sprawling farmhouse located in the serene surroundings of Chattarpur. Beautiful gardens, luxurious interiors, and a tranquil escape from the city.",
+      "owner": {
+        "name": "Sophia Walker",
+        "email": "sophiawalker@example.com",
+        "phone": "+91 9876543210"
+      }
+    }
+  ],
+  "bengaluru": [
+    {
+      "property_id": 11,
+      "title": "Luxurious apartment in the prime",
+      "location": "Indiranagar",
+      "price": "$800,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=867&q=80",
+      "description": "A luxurious apartment in the prime location of Indiranagar. Stylish interiors, modern amenities, and close proximity to cafes, restaurants, and shopping.",
+      "owner": {
+        "name": "Sophie Davis",
+        "email": "sophiedavis@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 12,
+      "title": "Spacious Villa in Whitefield",
+      "location": "Whitefield",
+      "price": "$1,200,000",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A spacious villa in the serene surroundings of Whitefield. Beautifully designed, landscaped gardens, and easy access to IT parks and schools.",
+      "owner": {
+        "name": "William Johnson",
+        "email": "williamjohnson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 13,
+      "title": "Cosy Apartment in Koramangala",
+      "location": "Koramangala",
+      "price": "$400,000",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A cozy apartment nestled in the vibrant neighborhood of Koramangala. Convenient access to cafes, parks, and recreational facilities.",
+      "owner": {
+        "name": "Ava Wilson",
+        "email": "avawilson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 14,
+      "title": "Modern Townhouse in Jayanagar",
+      "location": "Jayanagar",
+      "price": "$950,000",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A modern townhouse in the sought-after neighborhood of Jayanagar. Sleek design, ample living space, and easy access to schools and shopping.",
+      "owner": {
+        "name": "Benjamin Smith",
+        "email": "benjaminsmith@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 15,
+      "title": "Studio Apartment in MG Road",
+      "location": "MG Road",
+      "price": "$300,000",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "image_url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A chic studio apartment situated in the bustling area of MG Road. Close to shopping malls, restaurants, and public transportation.",
+      "owner": {
+        "name": "Charlotte Johnson",
+        "email": "charlottejohnson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 16,
+      "title": "Penthouse in Electronic City",
+      "location": "Electronic City",
+      "price": "$1,500,000",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A stunning penthouse in the popular area of Electronic City. Spacious interiors, panoramic views, and easy access to IT hubs and amenities.",
+      "owner": {
+        "name": "Jacob Wilson",
+        "email": "jacobwilson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 17,
+      "title": "Luxury Villa in HSR Layout",
+      "location": "HSR Layout",
+      "price": "$2,500,000",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "image_url": "https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "description": "An opulent villa situated in the prestigious area of HSR Layout. Grand architecture, landscaped gardens, and luxurious amenities.",
+      "owner": {
+        "name": "Oliver Martinez",
+        "email": "olivermartinez@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 18,
+      "title": "Modern Apartment in Marathahalli",
+      "location": "Marathahalli",
+      "price": "$600,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A modern apartment in the thriving area of Marathahalli. Contemporary design, well-appointed interiors, and close proximity to tech parks.",
+      "owner": {
+        "name": "Sophia Davis",
+        "email": "sophiadavis@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 19,
+      "title": "Cosy Bungalow in JP Nagar",
+      "location": "JP Nagar",
+      "price": "$1,200,000",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A charming bungalow nestled in the peaceful neighborhood of JP Nagar. Tranquil gardens, comfortable living spaces, and easy access to schools and parks.",
+      "owner": {
+        "name": "Emily Johnson",
+        "email": "emilyjohnson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 20,
+      "title": "Luxury Apartment in Banashankari",
+      "location": "Banashankari",
+      "price": "$900,000",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=867&q=80",
+      "description": "A luxurious apartment in the prestigious area of Banashankari. High-end finishes, spacious interiors, and a range of amenities.",
+      "owner": {
+        "name": "James Brown",
+        "email": "jamesbrown@example.com",
+        "phone": "+91 9876543210"
+      }
+    }
+  ],
+  "lucknow": [
+    {
+      "property_id": 21,
+      "title": "Luxury Villa in Gomti Nagar",
+      "location": "Gomti Nagar",
+      "price": "$1,800,000",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A luxurious villa located in the upscale area of Gomti Nagar. Elegant interiors, landscaped gardens, and a host of amenities.",
+      "owner": {
+        "name": "David Wilson",
+        "email": "davidwilson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 22,
+      "title": "Spacious Apartment in Aliganj",
+      "location": "Aliganj",
+      "price": "$600,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A spacious apartment in the residential area of Aliganj. Well-designed interiors, ample living space, and convenient access to amenities.",
+      "owner": {
+        "name": "Emma Johnson",
+        "email": "emmajohnson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 23,
+      "title": "Cosy Bungalow in Hazratganj",
+      "location": "Hazratganj",
+      "price": "$1,200,000",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A cosy bungalow situated in the heart of Hazratganj. Classic architecture, comfortable living spaces, and easy access to shopping and entertainment.",
+      "owner": {
+        "name": "Olivia Martinez",
+        "email": "oliviamartinez@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 24,
+      "title": "Modern Apartment in Indira Nagar",
+      "location": "Indira Nagar",
+      "price": "$500,000",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A modern apartment located in the popular area of Indira Nagar. Contemporary design, convenient amenities, and proximity to cafes and shopping.",
+      "owner": {
+        "name": "Sophia Davis",
+        "email": "sophiadavis@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 25,
+      "title": "Luxury Penthouse in Jankipuram",
+      "location": "Jankipuram",
+      "price": "$2,500,000",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "image_url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A luxurious penthouse in the prime area of Jankipuram. Spacious interiors, panoramic views, and high-end amenities.",
+      "owner": {
+        "name": "Jacob Wilson",
+        "email": "jacobwilson@example.com",
+        "phone": "+91 1234567890"
+      }
+    },
+    {
+      "property_id": 26,
+      "title": "Modern Apartment in Gomti Nagar Extension",
+      "location": "Gomti Nagar Extension",
+      "price": "$400,000",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "description": "A modern apartment located in the expanding area of Gomti Nagar Extension. Stylish interiors, convenient amenities, and proximity to schools and parks.",
+      "owner": {
+        "name": "Ava Wilson",
+        "email": "avawilson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 27,
+      "title": "Spacious Villa in Faizabad Road",
+      "location": "Faizabad Road",
+      "price": "$1,200,000",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A spacious villa situated on Faizabad Road. Well-designed interiors, landscaped gardens, and easy access to transportation and amenities.",
+      "owner": {
+        "name": "Benjamin Smith",
+        "email": "benjaminsmith@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 28,
+      "title": "Cosy Apartment in Alambagh",
+      "location": "Alambagh",
+      "price": "$250,000",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "image_url": "https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=867&q=80",
+      "description": "A cosy apartment located in the residential area of Alambagh. Comfortable living space, convenient amenities, and proximity to markets.",
+      "owner": {
+        "name": "Charlotte Johnson",
+        "email": "charlottejohnson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 29,
+      "title": "Luxury Penthouse in Hazratganj",
+      "location": "Hazratganj",
+      "price": "$3,000,000",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A luxurious penthouse located in the heart of Hazratganj. Stunning views, modern amenities, and proximity to shopping and entertainment.",
+      "owner": {
+        "name": "Daniel Wilson",
+        "email": "danielwilson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 30,
+      "title": "Villa in Jankipuram Extension",
+      "location": "Jankipuram Extension",
+      "price": "$900,000",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A beautiful villa situated in the expanding area of Jankipuram Extension. Spacious rooms, serene surroundings, and proximity to schools and parks.",
+      "owner": {
+        "name": "Emily Johnson",
+        "email": "sophiedavis@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 31,
+      "title": "Luxury Apartment in Gomti Nagar",
+      "location": "Gomti Nagar",
+      "price": "$800,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A luxurious apartment located in the prime area of Gomti Nagar. Stylish interiors, modern amenities, and proximity to cafes, restaurants, and shopping.",
+      "owner": {
+        "name": "Sophie Davis",
+        "email": "sophiedavis@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 32,
+      "title": "Spacious Villa in Aliganj",
+      "location": "Aliganj",
+      "price": "$1,200,000",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A spacious villa situated in the residential area of Aliganj. Well-designed interiors, landscaped gardens, and easy access to amenities.",
+      "owner": {
+        "name": "William Johnson",
+        "email": "williamjohnson@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 33,
+      "title": "Cosy Apartment in Hazratganj",
+      "location": "Hazratganj",
+      "price": "$400,000",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A cosy apartment nestled in the heart of Hazratganj. Classic architecture, comfortable living spaces, and easy access to shopping and entertainment.",
+      "owner": {
+        "name": "Olivia Martinez",
+        "email": "oliviamartinez@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 34,
+      "title": "Modern Apartment in Indira Nagar",
+      "location": "Indira Nagar",
+      "price": "$500,000",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A modern apartment located in the popular area of Indira Nagar. Contemporary design, convenient amenities, and proximity to cafes and shopping.",
+      "owner": {
+        "name": "Sophia Davis",
+        "email": "sophiadavis@example.com",
+        "phone": "+91 9876543210"
+      }
+    }
+  ],
+  "punjab": [
+    {
+      "property_id": 36,
+      "title": "Villa in Ludhiana",
+      "location": "Ludhiana",
+      "price": "$1,000,000",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=867&q=80",
+      "description": "A beautiful villa situated in the city of Ludhiana. Spacious rooms, well-designed interiors, and a serene environment.",
+      "owner": {
+        "name": "Aman Singh",
+        "email": "amansingh@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 37,
+      "title": "Farmhouse in Jalandhar",
+      "location": "Jalandhar",
+      "price": "$1,500,000",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A sprawling farmhouse located in the outskirts of Jalandhar. Lush greenery, spacious living areas, and a peaceful retreat.",
+      "owner": {
+        "name": "Kiran Verma",
+        "email": "kiranverma@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 38,
+      "title": "Apartment in Amritsar",
+      "location": "Amritsar",
+      "price": "$400,000",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A comfortable apartment located in the heart of Amritsar. Modern amenities, convenient location, and close proximity to popular attractions.",
+      "owner": {
+        "name": "Rajesh Sharma",
+        "email": "rajeshsharma@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 39,
+      "title": "Duplex in Patiala",
+      "location": "Patiala",
+      "price": "$600,000",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A stylish duplex situated in the city of Patiala. Spacious living spaces, modern design, and convenient amenities.",
+      "owner": {
+        "name": "Meera Kaur",
+        "email": "meerakaur@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 40,
+      "title": "Luxury Apartment in Mohali",
+      "location": "Mohali",
+      "price": "$800,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "description": "A luxurious apartment located in the upscale area of Mohali. High-end finishes, modern amenities, and proximity to IT parks.",
+      "owner": {
+        "name": "Gurpreet Singh",
+        "email": "gurpreetsingh@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 41,
+      "title": "Luxury Villa in Chandigarh",
+      "location": "Chandigarh",
+      "price": "$1,500,000",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A luxurious villa located in the prestigious city of Chandigarh. Grand architecture, landscaped gardens, and a range of amenities.",
+      "owner": {
+        "name": "Harpreet Kaur",
+        "email": "harpreetkaur@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 42,
+      "title": "Farmhouse in Ludhiana",
+      "location": "Ludhiana",
+      "price": "$2,000,000",
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "image_url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A sprawling farmhouse situated on the outskirts of Ludhiana. Tranquil surroundings, spacious living areas, and beautiful landscapes.",
+      "owner": {
+        "name": "Rajinder Singh",
+        "email": "rajindersingh@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 43,
+      "title": "Apartment in Amritsar",
+      "location": "Amritsar",
+      "price": "$500,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A comfortable apartment located in the heart of Amritsar. Modern amenities, convenient location, and close proximity to popular attractions.",
+      "owner": {
+        "name": "Kiran Verma",
+        "email": "kiranverma@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 44,
+      "title": "Independent House in Jalandhar",
+      "location": "Jalandhar",
+      "price": "$700,000",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=867&q=80",
+      "description": "An independent house located in the vibrant city of Jalandhar. Spacious rooms, modern amenities, and a well-maintained garden.",
+      "owner": {
+        "name": "Rajesh Sharma",
+        "email": "rajeshsharma@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 45,
+      "title": "Luxury Apartment in Mohali",
+      "location": "Mohali",
+      "price": "$800,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A luxurious apartment located in the upscale area of Mohali. High-end finishes, modern amenities, and proximity to IT parks.",
+      "owner": {
+        "name": "Gurpreet Singh",
+        "email": "gurpreetsingh@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 46,
+      "title": "Luxury Villa in Amritsar",
+      "location": "Amritsar",
+      "price": "$1,800,000",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A luxurious villa located in the prestigious city of Amritsar. Grand architecture, landscaped gardens, and a range of amenities.",
+      "owner": {
+        "name": "Aman Verma",
+        "email": "amanverma@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 47,
+      "title": "Farmhouse in Ludhiana",
+      "location": "Ludhiana",
+      "price": "$2,000,000",
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "image_url": "https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "description": "A sprawling farmhouse situated on the outskirts of Ludhiana. Tranquil surroundings, spacious living areas, and beautiful landscapes.",
+      "owner": {
+        "name": "Kiran Sharma",
+        "email": "kiransharma@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 48,
+      "title": "Apartment in Mohali",
+      "location": "Mohali",
+      "price": "$500,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A comfortable apartment located in the heart of Mohali. Modern amenities, convenient location, and close proximity to popular attractions.",
+      "owner": {
+        "name": "Rajesh Verma",
+        "email": "rajeshverma@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 49,
+      "title": "Independent House in Jalandhar",
+      "location": "Jalandhar",
+      "price": "$700,000",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "An independent house located in the vibrant city of Jalandhar. Spacious rooms, modern amenities, and a well-maintained garden.",
+      "owner": {
+        "name": "Meera Sharma",
+        "email": "meerasharma@example.com",
+        "phone": "+91 9876543210"
+      }
+    }
+  ],
+  "kolkata": [
+    {
+      "property_id": 64,
+      "title": "Modern Apartment in Rajarhat",
+      "location": "Rajarhat",
+      "price": "$600,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A modern apartment situated in the emerging area of Rajarhat. Contemporary design, convenient amenities, and proximity to business centers.",
+      "owner": {
+        "name": "Sneha Ghosh",
+        "email": "snehaghosh@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 51,
+      "title": "Luxury Apartment in Salt Lake City",
+      "location": "Salt Lake City",
+      "price": "$1,200,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A luxurious apartment located in the upscale area of Salt Lake City. High-end finishes, modern amenities, and proximity to IT hubs and entertainment.",
+      "owner": {
+        "name": "Amit Basu",
+        "email": "amitbasu@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 52,
+      "title": "Victorian-style Bungalow in Ballygunge",
+      "location": "Ballygunge",
+      "price": "$2,500,000",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=867&q=80",
+      "description": "A magnificent Victorian-style bungalow located in the prestigious area of Ballygunge. Elegant architecture, spacious interiors, and lush gardens.",
+      "owner": {
+        "name": "Riya Kapoor",
+        "email": "riyakapoor@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 53,
+      "title": "Cosy Apartment in Park Street",
+      "location": "Park Street",
+      "price": "$500,000",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A cosy apartment nestled in the vibrant area of Park Street. Convenient location, modern amenities, and close proximity to cafes and shopping.",
+      "owner": {
+        "name": "Sudipta Roy",
+        "email": "sudiptaroy@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 54,
+      "title": "Modern Apartment in New Town",
+      "location": "New Town",
+      "price": "$600,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A modern apartment situated in the emerging area of New Town. Contemporary design, convenient amenities, and proximity to business centers.",
+      "owner": {
+        "name": "Sourav Das",
+        "email": "souravdas@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 55,
+      "title": "Heritage House in Kumartuli",
+      "location": "Kumartuli",
+      "price": "$800,000",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A heritage house located in the artistic neighborhood of Kumartuli. Rich cultural heritage, traditional architecture, and a vibrant atmosphere.",
+      "owner": {
+        "name": "Debjani Sen",
+        "email": "debanisen@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 56,
+      "title": "Luxury Apartment in South Kolkata",
+      "location": "South Kolkata",
+      "price": "$1,200,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A luxurious apartment located in the upscale area of South Kolkata. High-end finishes, modern amenities, and proximity to shopping and entertainment.",
+      "owner": {
+        "name": "Arjun Mehra",
+        "email": "arjunmehra@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 57,
+      "title": "Heritage Mansion in North Kolkata",
+      "location": "North Kolkata",
+      "price": "$2,500,000",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1612965607446-25e1332775ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A magnificent heritage mansion located in the historic area of North Kolkata. Exquisite architecture, spacious interiors, and a rich cultural ambience.",
+      "owner": {
+        "name": "Ritwik Banerjee",
+        "email": "ritwikbanerjee@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 58,
+      "title": "Cosy Apartment in Park Circus",
+      "location": "Park Circus",
+      "price": "$500,000",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A cosy apartment nestled in the vibrant area of Park Circus. Convenient location, modern amenities, and close proximity to cafes and shopping.",
+      "owner": {
+        "name": "Sneha Gupta",
+        "email": "snehagupta@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 59,
+      "title": "Modern Apartment in Rajarhat",
+      "location": "Rajarhat",
+      "price": "$600,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "description": "A modern apartment situated in the emerging area of Rajarhat. Contemporary design, convenient amenities, and proximity to business centers.",
+      "owner": {
+        "name": "Rohan Basu",
+        "email": "rohanbasu@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 60,
+      "title": "Heritage House in Sovabazar",
+      "location": "Sovabazar",
+      "price": "$800,000",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=867&q=80",
+      "description": "A heritage house located in the historic neighborhood of Sovabazar. Rich cultural heritage, traditional architecture, and a vibrant atmosphere.",
+      "owner": {
+        "name": "Ananya Chatterjee",
+        "email": "ananyachatterjee@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 61,
+      "title": "Luxury Apartment in Behala",
+      "location": "Behala",
+      "price": "$1,000,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A luxurious apartment located in the prime area of Behala. High-end finishes, modern amenities, and proximity to shopping centers and restaurants.",
+      "owner": {
+        "name": "Ravi Sharma",
+        "email": "ravisharma@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 62,
+      "title": "Victorian-style Bungalow in Alipore",
+      "location": "Alipore",
+      "price": "$2,500,000",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "description": "A magnificent Victorian-style bungalow located in the prestigious area of Alipore. Elegant architecture, spacious interiors, and lush gardens.",
+      "owner": {
+        "name": "Anita Kapoor",
+        "email": "anitakapoor@example.com",
+        "phone": "+91 9876543210"
+      }
+    },
+    {
+      "property_id": 63,
+      "title": "Cosy Apartment in Jadavpur",
+      "location": "Jadavpur",
+      "price": "$500,000",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=867&q=80",
+      "description": "A cosy apartment nestled in the peaceful area of Jadavpur. Convenient location, modern amenities, and proximity to parks and educational institutions.",
+      "owner": {
+        "name": "Manoj Sen",
+        "email": "manojsen@example.com",
+        "phone": "+91 9876543210"
+      }
+    }
+  ]
+}
